@@ -63,6 +63,7 @@ body {
 
 .block{
   flex: 2;
+  pointer-events: none;
 }
 
 .right {
