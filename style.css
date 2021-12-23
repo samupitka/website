@@ -44,9 +44,26 @@ body {
 }
 
 .center {
+  z-index: 1;
+  margin-top: 7vh;
  flex: 3;
   height: 100vh;
  text-shadow: darkblue 1px 0 10px;
+ display: flex;
+ flex-direction: column;
+}
+
+
+.container{
+  flex: 1;
+  display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+
+}
+
+.block{
+  flex: 2;
 }
 
 .right {
@@ -54,42 +71,37 @@ body {
   height: 100vh;
 }
 
-
-.container {  
-	display: grid;
-	height: 50vh;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "name name title title . . ."
-    "illustrations . photography . webdesign . VJ"
-    "about . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . ."
-    ". . . . . . .";
+.center div{
+  min-width: 250px;
 }
 
-.name { grid-area: name; }
-.title { grid-area: title; }
-.illustrations { grid-area: illustrations; }
-.about { grid-area: about; }
-.photography { grid-area: photography; }
-.VJ { grid-area: VJ; }
-.webdesign { grid-area: webdesign; }
+.illustrations {
+ flex: 1;
+}
+.about {
+ flex: 1;
+}
+.photography {
+ flex: 1;
+}
+.VJ { 
+ flex: 1;
+}
+.webdesign {
+ flex: 1;
+}
 
 
 .maa {
 	margin-top: 35vh;
-	margin-left: 40% ;
+	margin-left: 20% ;
 	position: absolute;
   display: inline-block;
    display: inline-block;
 
 }
 #maaKuva {
+  z-index: -1;
 	opacity: 90%;
 	width: 50vh;
 	animation-name: spin;
