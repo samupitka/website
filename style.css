@@ -44,7 +44,6 @@ body {
 }
 
 .center {
-  z-index: 1;
   margin-top: 7vh;
  flex: 3;
   height: 100vh;
@@ -64,6 +63,7 @@ body {
 
 .block{
   flex: 2;
+  pointer-events: none;
 }
 
 .right {
@@ -101,7 +101,6 @@ body {
 
 }
 #maaKuva {
-  z-index: -1;
 	opacity: 90%;
 	width: 50vh;
 	animation-name: spin;
