@@ -63,7 +63,6 @@ body {
 
 .block{
   flex: 2;
-  pointer-events: none;
 }
 
 .right {
@@ -93,8 +92,7 @@ body {
 
 
 .maa {
-	margin-top: 35vh;
-	margin-left: 20% ;
+	margin-top: 5vh;
 	position: absolute;
   display: inline-block;
    display: inline-block;
