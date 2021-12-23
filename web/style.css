@@ -15,9 +15,6 @@ body {
 	text-shadow: deeppink 1px 0 10px;
 }
 
-
-
-
 .header{
 	width: 100%;
 	flex: 1;
@@ -28,100 +25,6 @@ body {
   animation: marquee 20s linear infinite;  
 } 
 
-.wrapper{
-	flex: 8;
-	width: 100vw;
-	display: flex;
-	justify-content: stretch;
-	flex-direction: row;
-	background: green;
-
-}
-
-.left {
- flex: 1;
- height: 100vh;
-}
-
-.center {
-  z-index: 1;
-  margin-top: 7vh;
- flex: 3;
-  height: 100vh;
- text-shadow: darkblue 1px 0 10px;
- display: flex;
- flex-direction: column;
-}
-
-
-.container{
-  flex: 1;
-  display: flex;
- flex-wrap: wrap;
- flex-direction: row;
-
-}
-
-.block{
-  flex: 2;
-}
-
-.right {
- flex: 1;
-  height: 100vh;
-}
-
-.center div{
-  min-width: 250px;
-}
-
-.illustrations {
- flex: 1;
-}
-.about {
- flex: 1;
-}
-.photography {
- flex: 1;
-}
-.VJ { 
- flex: 1;
-}
-.webdesign {
- flex: 1;
-}
-
-
-.maa {
-	margin-top: 35vh;
-	margin-left: 20% ;
-	position: absolute;
-  display: inline-block;
-   display: inline-block;
-
-}
-#maaKuva {
-  z-index: -1;
-	opacity: 90%;
-	width: 50vh;
-	animation-name: spin;
-  animation-duration: 50s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; 
-}
-
-@keyframes spin {
-    from {
-        transform:rotate(0deg);
-    }
-    to {
-        transform:rotate(360deg);
-    }
-}
-
-
-
-
 @keyframes marquee {
   0% {
     transform: translate3d(-100%, 0, 0);
@@ -129,26 +32,4 @@ body {
   100% {
     transform: translate3d(10%, 0, 0);
   }
-}
-
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.maa:hover .dropdown-content {
-  display: block;
 }
