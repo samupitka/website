@@ -62,7 +62,7 @@ body {
 }
 
 .block{
-  flex: 2;
+  flex: 3;
 }
 
 .right {
@@ -71,7 +71,7 @@ body {
 }
 
 .center div{
-  min-width: 250px;
+  min-width: 200px;
 }
 
 .illustrations {
@@ -92,6 +92,7 @@ body {
 
 
 .maa {
+  overflow: hidden;
 	margin-top: 5vh;
 	position: absolute;
   display: inline-block;
