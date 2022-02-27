@@ -63,6 +63,7 @@ body {
 
 .block{
   flex: 3;
+  overflow: hidden;
 }
 
 .right {
@@ -83,7 +84,7 @@ min-width: 250px;
 .photography {
  flex: 1;
 }
-.VJ { 
+.dumpsite { 
  flex: 1;
 }
 .webdesign {
@@ -93,7 +94,8 @@ min-width: 250px;
 
 .maa {
   overflow: hidden;
-	margin-top: 5vh;
+	margin-top: 3vh;
+  margin-left: -10vw;
 	position: absolute;
   display: inline-block;
    display: inline-block;
@@ -101,7 +103,7 @@ min-width: 250px;
 }
 #maaKuva {
 	opacity: 90%;
-	width: 50vh;
+	width: 60vh;
 	animation-name: spin;
   animation-duration: 50s;
   animation-iteration-count: infinite;
