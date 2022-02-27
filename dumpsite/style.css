@@ -12,8 +12,9 @@ body {
 	font-size: 20px;
 	height: 100%;
 	width: 100%;
-	text-shadow: deeppink 1px 0 10px;
+
 	background: whitesmoke;
+	font-family: sans-serif;
 }
 
 .header{
@@ -23,7 +24,8 @@ body {
 	text-align: right;
   overflow: hidden;
   display: inline-block;
-  animation: marquee 20s linear infinite;  
+  animation: marquee 20s linear infinite; 
+  	text-shadow: deeppink 1px 0 10px; 
 } 
 
 
@@ -57,23 +59,23 @@ body {
     margin: 0 1.5rem 1.5rem 0;
     display: inline-block;
     width: 100%;
-    border
     padding: 5px;
     box-shadow: 5px 5px 5px white;
+    min-height: 400px;
   }
 
   
     img {
       width: 100%;
-      border-radius: 5px;
       transition: all .25s ease-in-out;
     }
     p{
       margin: 5px 0;
       padding: 0;
-      text-align: center;
-      font-style: italic;
-      opacity: 0;
+      text-align: right;
+      color: black;
+      box-shadow: none;
+      font-size: 15px;
     }
 
 
